@@ -1,19 +1,19 @@
-# simple_network_sniffer
+# simple network sniffer
 
 Simple network sniffer; 
-It captures layer 3 - layer 4 traffic and provides a summary (protocol, ports, icmp types/codes, etc,)
-It optionally provides layer 2 and layer 5 (applicastion layer) info. 
-It supports both IPv4 and IPv6 (including IPv6 Extension headers)
+* It captures layer 3 - layer 4 traffic and provides a summary (protocol, ports, icmp types/codes, etc,)
+* It optionally provides layer 2 and layer 5 (applicastion layer) info. 
+* It supports both IPv4 and IPv6 (including IPv6 Extension headers)
 
 ## Requirements
-Python 3
-ipaddress python module
+* Python 3
+* ipaddress python module
 
 ## Parameters
-positional arguments:
+1. positional arguments:
   interface             The network interface to use for scanning
 
-options:
+2. options:
   -h, --help            show this help message and exit
   -w WRITE, --write WRITE
                         The file to write the captured traffic
